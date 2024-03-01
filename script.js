@@ -30,7 +30,7 @@ if(aaa<kal2.length){
   kalimat2.innerHTML += kal2.charAt(aaa);aaa++;
   setTimeout(mulaiketik2,180);
 }
-if(aaa==kal2.length){setInterval(berjatuhan,800);setTimeout(munculbwh,1000);setTimeout(tombol,30000);}
+if(aaa==kal2.length){setInterval(berjatuhan,800);setTimeout(munculbwh,1000);setTimeout(tombol,3000);}
 }
 defkalimatbawah = kalimatbawah.innerHTML;
 function munculbwh(){kalimatbawah.innerHTML=defkalimatbawah;setTimeout(munculbwh2,2000);otomatis();}
