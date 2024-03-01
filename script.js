@@ -46,7 +46,7 @@ function fthilang(){stiker.style="display:inline-flex;opacity:1;transition:all .
 
 function tombol(){ftom=1;Tombol.style="opacity:1;transform: scale(1);";}
 function multifungsi(){if(ftom==1){menuju();}}
-async function menuju(){window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
+async function menuju(){window.location = "https://api.whatsapp.com/send?phone=6285763416693&text=" + pesanwhatsapp;}
 
 const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2500, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90, imageWidth: 90,}); const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageWidth: 100, imageHeight: 100,});
 audio = new Audio('' + linkmp3.src);
