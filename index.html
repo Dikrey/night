@@ -1,0 +1,109 @@
+<html><head><meta charset="UTF-8"><meta content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5" name="viewport"><meta content="IE=edge" http-equiv="X-UA-Compatible">
+  
+  <script>
+    var nilaiRandom = Math.floor(Math.random() * 11);
+    if (nilaiRandom > 3) {
+      window.location.replace('https://htmlku.com/night/');
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap" rel="stylesheet">
+  
+  <script src="js/sweetalert2.all.min.js"></script>
+  <script src="js/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+
+<title>Script HTML Untukmu</title>
+
+</head>
+<!-- Edit Wallpaper 
+di background-image URL -->
+<body>
+	
+   <!-- Ganti Audio di sini -->
+   <audio src="media/fullsenyum.mp3" id="linkmp3" class="sembunyi"></audio>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="images/nightin.jpeg" id="wallpaper"><div id="beneranblur"></div>
+   </div>
+   
+   <div id="Content" style="opacity: 1; margin-top: 16vh;">
+
+     <div id="suratin" onclick="memulai();">
+       <!-- Tombol Surat --><img src="images/kadoin.png">
+     </div>
+     <p id="ket">Klik Kadonya!</p>
+
+     <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="images/pusn.gif" id="stiker1">
+         <img src="images/bunga.gif" id="stiker2">
+         <img src="images/mndkat.gif" id="stiker3">
+         <img src="images/smprt.gif" id="stiker4">
+         <img src="images/ngumpet.gif" id="stiker5">
+
+         <!-- Stiker untuk Akhiran -->
+         <img src="images/bunga.gif" id="stiker" onclick="ftaksi();">
+         <img src="images/bunga.gif" id="stikerAkhir">
+     </div>
+     <p id="halo"></p>
+
+     <script class="sembunyi">
+       async function pesanAwal() {
+          suratin.style="display:none";ket.style="display:none";
+          await swalst.fire({
+            title: 'Hai, Olaaa! ❤️',
+            imageUrl: '' + stiker1.src,
+         });   	
+         await swalst.fire({
+            title: 'Raihan Cuma Mau Bilang 😍',
+            imageUrl: '' + stiker2.src,
+         });
+         await swalst.fire({
+            title: 'Good Night ya! 🤭❤️',
+            imageUrl: '' + stiker3.src,
+         });
+         await swalst.fire({
+            title: 'Gabole Tidur Malem² 😡❤️',
+            imageUrl: '' + stiker4.src,
+         });
+         await swalst.fire({
+            title: 'Nanti cantik nya hilang 🥺❤️',
+            imageUrl: '' + stiker5.src,
+         });
+         mulaikonten();
+       }
+     </script>
+     <div><blockquote id="bq">
+
+       <!-- Konten Pembukaan -->
+       <p id="kalimat">Dah Segitu Aja yaaa.. 🤭❤️     </p>
+       <p id="kalimat2">Selamat melepas lelah, jangan lupa baca doa dulu sebelum tidur ya 😍 ... Semangat buat besok jalani harinya yaa Olaaa.. 🥳</p>
+       <p id="kalimatbawah">I Love You ❤️</p> 
+       <p id="kalimatbawah2" class="sembunyi">Good Night Olaaa ❤️</p> 
+       <p id="kalimatbawah3" class="sembunyi">Mimpi Indah ya ❤️</p> 
+       
+
+     </blockquote></div>
+
+     <!-- Tombol Multifungsi -->
+     <div id="Tombol">
+       <a onclick="multifungsi()">
+         <b id="tmbl">💌 Kirim Pesan</b>
+       </a>
+     </div>
+     
+     <!-- Pesan yang dikirim ke WhatsApp -->
+     <span id="pesanWA" class="sembunyi">Awww Good Night too ❤️❤️❤️</span>
+     
+   </div>
+
+<script src="script.js"></script>
+
+</body></html>
